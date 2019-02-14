@@ -1,0 +1,51 @@
+@media screen and (max-width: 1200px) {
+  .system-card {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #dropNav {
+    display: flex;
+    justify-content: space-around;
+  }
+  #regularNav {
+    display: none;
+  }
+
+  .website {
+    position: absolute;
+    margin-top: 3em;
+  }
+
+  .system-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: skyblue;
+  }
+
+  .system-card {
+    width: 95%;
+  }
+
+  ion-icon {
+    font-size: 24px;
+  }
+
+  .header-right {
+    margin: 5px;
+    justify-content: center;
+  }
+
+  #cellphone, #regularNav {
+    flex-direction: column;
+  }
+
+  .links {
+    a{
+      padding: 0px;
+      margin: 0px;
+    }
+  }
+}

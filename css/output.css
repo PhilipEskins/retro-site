@@ -3,7 +3,10 @@ html {
 
 @font-face {
   font-family: arcade;
-  src: url(../fonts/manaspc.ttf); }
+  src: url(../fonts/manaspc.ttf);
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Righteous', cursive;
+  font-family: 'Nova Square', cursive; }
 .row {
   display: flex;
   flex-direction: row; }
@@ -15,36 +18,12 @@ html {
 body {
   background-color: #20303B;
   height: 100%;
-  color: skyblue; }
+  color: skyblue;
+  font-family: Roboto; }
 
 .website {
-  margin-top: 50px; }
-
-ion-icon {
-  font-size: 32px;
-  color: skyblue;
-  transition: .5s;
-  padding: 0px 7px; }
-
-nav {
-  justify-content: space-between;
-  background-color: #31356E;
-  position: fixed;
-  top: 0;
-  width: 100%; }
-  nav a:hover, nav ion-icon:hover {
-    color: #648ACC; }
-
-.links {
-  align-items: center; }
-  .links a {
-    padding: 0px 15px;
-    margin: 0px 15px;
-    color: skyblue;
-    transition: .5s; }
-
-.header-right {
-  margin-right: 35px; }
+  position: absolute;
+  top: 1.1em; }
 
 .main h1 {
   text-align: center;
@@ -66,7 +45,6 @@ nav {
 .system-container {
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
   flex-wrap: wrap; }
 
 .system-card {
@@ -83,12 +61,52 @@ nav {
   justify-content: center;
   align-items: center; }
 
+footer {
+  justify-content: space-around;
+  width: 100%;
+  bottom: 0px; }
+
+ion-icon {
+  font-size: 32px;
+  color: skyblue;
+  transition: .5s;
+  padding: 0px 7px; }
+
+nav {
+  justify-content: space-between;
+  background-color: #31356E;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+  nav a:hover, nav ion-icon:hover {
+    color: #648ACC; }
+
+#dropNav {
+  display: none; }
+  #dropNav img {
+    height: 40px; }
+  #dropNav a:hover {
+    background-color: #5359b2;
+    padding: 0px 30px; }
+
+.links {
+  align-items: center; }
+  .links a {
+    padding: 0px 15px;
+    margin: 0px 15px;
+    color: skyblue;
+    transition: .5s; }
+
+.header-right {
+  margin-right: 35px; }
+
 .nintendo {
   text-align: center;
   background-image: url("http://box5396.temp.domains/~rgtwishl/wp-content/uploads/2018/09/MARIOBACKROUND.png");
   background-size: 100% 100%;
   color: white;
-  font-family: arcade;
+  font-family: 'Nova Square';
   padding-top: 5px;
   width: 90%;
   justify-content: center; }
@@ -146,28 +164,42 @@ nav {
 .sony {
   text-align: center; }
 
-footer {
-  justify-content: space-around;
-  width: 100%;
-  bottom: 0px; }
-
 @media screen and (max-width: 1200px) {
   .system-card {
     margin: 0; } }
 @media screen and (max-width: 850px) {
+  #dropNav {
+    display: flex;
+    justify-content: space-around; }
+
+  #regularNav {
+    display: none; }
+
+  .website {
+    position: absolute;
+    margin-top: 3em; }
+
   .system-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: skyblue; }
 
+  .system-card {
+    width: 95%; }
+
   ion-icon {
     font-size: 24px; }
 
   .header-right {
-    margin: 0px; }
+    margin: 5px;
+    justify-content: center; }
+
+  #cellphone, #regularNav {
+    flex-direction: column; }
 
   .links a {
-    padding: 5px; } }
+    padding: 0px;
+    margin: 0px; } }
 
 /*# sourceMappingURL=output.css.map */

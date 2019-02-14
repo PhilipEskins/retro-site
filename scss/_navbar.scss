@@ -1,0 +1,44 @@
+ion-icon {
+  font-size: 32px;
+  color: skyblue;
+  transition: .5s;
+  padding: 0px 7px;
+}
+
+nav {
+  justify-content: space-between;
+  background-color: $navBlue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  a:hover, ion-icon:hover {
+    color: #648ACC;
+  }
+}
+
+#dropNav {
+  display: none;
+  img {
+    height: 40px;
+  }
+  a:hover {
+    background-color: lighten($navBlue, 20);
+    padding: 0px 30px;
+  }
+}
+
+
+.links {
+  align-items: center;
+  a {
+    padding: 0px 15px;
+    margin: 0px 15px;
+    color: skyblue;
+    transition: .5s;
+  }
+}
+
+.header-right {
+  margin-right: 35px;
+}

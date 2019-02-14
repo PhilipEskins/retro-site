@@ -1,0 +1,80 @@
+// Nintendo section
+
+.nintendo {
+  text-align: center;
+  background-image: url("http://box5396.temp.domains/~rgtwishl/wp-content/uploads/2018/09/MARIOBACKROUND.png");
+  background-size: 100% 100%;
+  color: white;
+  font-family: 'Nova Square';
+  padding-top: 5px;
+  width: 90%;
+  justify-content: center;
+}
+
+
+.nes, .snes, .n64, .gamecube, .wii, .switch, .gameboy, .gbadvance, .virtual, .ds, .nin3ds{
+  background-size: 100% 100%;
+  align-items: center;
+  h4 {
+    padding: 0px 15px;
+  }
+  a{
+    transition: .5s;
+  }
+  a:link {
+    color: white;
+  }
+  a:visited {
+    color: white;
+  }
+  a:hover {
+    color: #20303B;
+    background-color: white;
+  }
+  a:active {
+    color: white;
+  }
+}
+
+.nes {
+  background-image: $gradient, url("../img/nes.jpg");
+}
+
+.snes {
+  background-image: $gradient, url("../img/snes.JPG");
+}
+
+.n64 {
+  background-image: $gradient, url("../img/n64.JPG");
+}
+
+.gamecube {
+  background-image: $gradient, url("../img/gamecube.jpg");
+}
+
+.wii {
+  background-image: $gradient, url("../img/wii.JPG");
+}
+
+.switch {
+  background-image: $gradient, url("../img/switch.JPG");
+}
+
+.gameboy {
+  background-image: $gradient, url("../img/gb.JPG");
+}
+.gbadvance {
+  background-image: $gradient, url("../img/gba.JPG");
+}
+
+.virtual {
+  background-image: $gradient, url("../img/virtual.JPG");
+}
+
+.ds {
+  background-image: $gradient, url("../img/ds.JPG");
+}
+
+.nin3ds {
+  background-image: $gradient, url("../img/3ds.JPG");
+}

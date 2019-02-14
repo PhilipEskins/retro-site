@@ -2,20 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link  href="css/output.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nova+Square|Righteous|Roboto" rel="stylesheet">
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Update - RETRO GAME TRADER</title>
   </head>
   <body>
-    <nav class="row">
-      <div class="row links">
-        <a href="#home">HOME</a>
-        <a href="#nintendo">NINTENDO</a>
+    <nav class="row" id="cellphone">
+      <div class="row links" id="regularNav">
+        <a href="#home" class="homeLink">HOME</a>
+        <a href="#nintendo" class="nintendoLink">NINTENDO</a>
         <a href="#sony">SONY</a>
-        <a href="#">SEGA</a>
-        <a href="#">MICROSOFT</a>
+        <a href="#sega">SEGA</a>
+        <a href="#microsoft">MICROSOFT</a>
       </div>
-      <div class="header-right">
+      <div class="row links" id="dropNav">
+        <a href="#home" class="homeLink"><ion-icon name="home"></ion-icon></home>
+        <a href="#nintendo" class="nintendoLink"><img src="img/logo-nintendo.svg"></a>
+        <a href="#sony"><img src="img/PlayStation_logo.svg" alt=""></a>
+        <a href="#sega"><img src="img/SEGA_logo.svg" alt=""></a>
+        <a href="#microsoft"><img src="img/Xbox_logo.svg" alt="" id="xboxLogo"></a>
+      </div>
+
+      <div class="header-right row">
         <a href="https://www.facebook.com/RetroGameTrader/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
         <a href="https://twitter.com/RetroGameTrader" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
         <a href="https://www.instagram.com/retrogametradermain/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
@@ -23,7 +35,7 @@
     </nav>
     <div class="website">
       <div class="main">
-        <h1><a name="home">RETRO GAME TRADER</a></h1>
+        <h1>RETRO GAME TRADER</h1>
         <p class="sub-head"> Oregon's largest retro game store.</p>
       </div>
 
@@ -36,7 +48,7 @@
 
       <div class="center row">
       <section class="nintendo">
-        <a name="nintendo"><h2>Nintendo Systems</h2></a>
+        <h2>Nintendo Systems</h2>
         <p>Click on the images below to see what games we are looking for. Will open in a new window.</p>
 
         <div class="row system-container">
@@ -94,7 +106,7 @@
 
 
         <section class="sony">
-          <a name="sony"><h2>Sony Systems</h2></a>
+          <h2>Sony Systems</h2>
           <p>Click on the links below to see what games we are looking for.</p>
 
           <div class="row system-container">
@@ -129,7 +141,7 @@
       <footer class="row">
         <p>Retro Game Trader, all rights reserved.</p>
         <p>Terms of Use - Privacy Policy</p>
-        <p>Nathan Nielson | Philip Eskins</p>
+        <p>Philip Eskins | Nathan Nielson | Chris Breaux</p>
       </footer>
 
     </div>
