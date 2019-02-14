@@ -94,16 +94,27 @@ nav {
 
 .system-container {
   justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  flex-wrap: wrap;
+  // height: 0;
+  // padding-top: 56.25%;
 }
 
 .system-card {
   text-align: center;
   width: 275px;
   height: 275px;
+  padding: 1%;
   border: 1px solid lightgray;
   margin: 0px 35px;
   margin-bottom: 35px;
   justify-content: center;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
 }
 
 // Nintendo section
@@ -115,11 +126,13 @@ nav {
   color: white;
   font-family: arcade;
   padding-top: 5px;
+  width: 90%;
+  justify-content: center;
 }
 
 
 .nes, .snes, .n64, .gamecube, .wii, .switch, .gameboy, .gbadvance, .virtual, .ds, .nin3ds{
-  background-size: 275px 275px;
+  background-size: 100% 100%;
   align-items: center;
   h4 {
     padding: 0px 15px;

@@ -64,16 +64,24 @@ nav {
   justify-content: center; }
 
 .system-container {
-  justify-content: center; }
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  flex-wrap: wrap; }
 
 .system-card {
   text-align: center;
   width: 275px;
   height: 275px;
+  padding: 1%;
   border: 1px solid lightgray;
   margin: 0px 35px;
   margin-bottom: 35px;
   justify-content: center; }
+
+.center {
+  justify-content: center;
+  align-items: center; }
 
 .nintendo {
   text-align: center;
@@ -81,10 +89,12 @@ nav {
   background-size: 100% 100%;
   color: white;
   font-family: arcade;
-  padding-top: 5px; }
+  padding-top: 5px;
+  width: 90%;
+  justify-content: center; }
 
 .nes, .snes, .n64, .gamecube, .wii, .switch, .gameboy, .gbadvance, .virtual, .ds, .nin3ds {
-  background-size: 275px 275px;
+  background-size: 100% 100%;
   align-items: center; }
   .nes h4, .snes h4, .n64 h4, .gamecube h4, .wii h4, .switch h4, .gameboy h4, .gbadvance h4, .virtual h4, .ds h4, .nin3ds h4 {
     padding: 0px 15px; }
