@@ -1,15 +1,17 @@
-
-function scrollWin(x, y) {
-  window.scrollTo(x, y);
+function hide() {
+  $(".main").hide();
+  $(".nintendo").hide();
 }
 
 $(document).ready(function() {
 
   $(".homeLink").click(function(){
-    scrollWin(0,0);
+    hide();
+    $(".main").show();
   });
 
   $(".nintendoLink").click(function(){
-    scrollWin(0,190);
+    hide();
+    $(".nintendo").show();
   });
 });

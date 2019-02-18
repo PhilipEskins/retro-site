@@ -2,15 +2,22 @@
 
 .nintendo {
   text-align: center;
-  background-image: url("http://box5396.temp.domains/~rgtwishl/wp-content/uploads/2018/09/MARIOBACKROUND.png");
+  background-image: url("../img/marioclouds.gif");
   background-size: 100% 100%;
   color: white;
   font-family: 'Nova Square';
+  margin-top: 2em;
   padding-top: 5px;
   width: 90%;
   justify-content: center;
 }
 
+.ninHeading {
+  text-shadow: 2px 2px 5px black;
+  h2 {
+    margin-bottom: 0px;
+  }
+}
 
 .nes, .snes, .n64, .gamecube, .wii, .switch, .gameboy, .gbadvance, .virtual, .ds, .nin3ds{
   background-size: 100% 100%;
@@ -29,6 +36,7 @@
   }
   a:hover {
     color: #20303B;
+    padding: 0px 137.5px;
     background-color: white;
   }
   a:active {
@@ -37,44 +45,44 @@
 }
 
 .nes {
-  background-image: $gradient, url("../img/nes.jpg");
+  background-image: $gradient, url("../img/nes.png");
 }
 
 .snes {
-  background-image: $gradient, url("../img/snes.JPG");
+  background-image: $gradient, url("../img/snes.png");
 }
 
 .n64 {
-  background-image: $gradient, url("../img/n64.JPG");
+  background-image: $gradient, url("../img/n64.png");
 }
 
 .gamecube {
-  background-image: $gradient, url("../img/gamecube.jpg");
+  background-image: $gradient, url("../img/gamecube.png");
 }
 
 .wii {
-  background-image: $gradient, url("../img/wii.JPG");
+  background-image: $gradient, url("../img/wiiu.png");
 }
 
 .switch {
-  background-image: $gradient, url("../img/switch.JPG");
+  background-image: $gradient, url("../img/switch.png");
 }
 
 .gameboy {
-  background-image: $gradient, url("../img/gb.JPG");
+  background-image: $gradient, url("../img/gameboy.png");
 }
 .gbadvance {
-  background-image: $gradient, url("../img/gba.JPG");
+  background-image: $gradient, url("../img/gbadvance.png");
 }
 
 .virtual {
-  background-image: $gradient, url("../img/virtual.JPG");
+  background-image: $gradient, url("../img/virtualboy.png");
 }
 
 .ds {
-  background-image: $gradient, url("../img/ds.JPG");
+  background-image: $gradient, url("../img/ds.png");
 }
 
 .nin3ds {
-  background-image: $gradient, url("../img/3ds.JPG");
+  background-image: $gradient, url("../img/3ds.png");
 }
