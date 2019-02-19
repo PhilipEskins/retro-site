@@ -50,6 +50,12 @@ body {
   }
 }
 
+.sub-head {
+  a {
+    color: skyblue;
+  }
+}
+
 .home-post {
   text-align: center;
 }
@@ -106,7 +112,9 @@ body {
 footer {
   position: absolute;
   bottom: 0;
-  height: 60px;
   justify-content: space-around;
   width: 100%;
+  a {
+    color: skyblue;
+  }
 }

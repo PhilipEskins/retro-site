@@ -1,4 +1,65 @@
 // Sony Section
 .sony {
   text-align: center;
+  background-image: url("../img/playstation.jpg");
+  background-size: 100% 100%;
+  color: white;
+  font-family: 'Nova Square';
+  margin-top: 2em;
+  padding-top: 5px;
+  width: 90%;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.sonyHeading {
+  text-shadow: 2px 2px 5px black;
+  h2 {
+    margin-bottom: 0px;
+  }
+}
+
+.playstation, .ps2, .ps4, .psp, .vita {
+  background-size: 100% 100%;
+  align-items: center;
+  h4 {
+    padding: 0px 15px;
+  }
+  a{
+    transition: .5s;
+  }
+  a:link {
+    color: white;
+  }
+  a:visited {
+    color: white;
+  }
+  a:hover {
+    color: #20303B;
+    padding: 0px 137.5px;
+    background-color: white;
+  }
+  a:active {
+    color: white;
+  }
+}
+
+.playstation {
+  background-image: $gradient, url("../img/playstation.png");
+}
+
+.ps2 {
+  background-image: $gradient, url("../img/playstation2.png");
+}
+
+.ps4 {
+  background-image: $gradient, url("../img/playstation4.png");
+}
+
+.psp {
+  background-image: $gradient, url("../img/psp.png");
+}
+
+.vita {
+  background-image: $gradient, url("../img/psvita.png");
 }

@@ -1,6 +1,7 @@
 function hide() {
   $(".main").hide();
   $(".nintendo").hide();
+  $(".sony").hide();
 }
 
 $(document).ready(function() {
@@ -13,5 +14,10 @@ $(document).ready(function() {
   $(".nintendoLink").click(function(){
     hide();
     $(".nintendo").show();
+  });
+
+  $(".sonyLink").click(function(){
+    hide();
+    $(".sony").show();
   });
 });
